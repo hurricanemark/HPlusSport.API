@@ -1,10 +1,10 @@
 # Building Web APIs with ASP.NET Core in .NET 
 
-*Development environment: Visual Studio 2022
+*Development environment: Visual Studio 2022*
 
-Language: C-Sharp
+*Language: C-Sharp*
 
-References: LinkedIn Learning by Christian Wenz* 
+*References: LinkedIn Learning by Christian Wenz* 
 
 
 <hr />
@@ -23,7 +23,8 @@ References: LinkedIn Learning by Christian Wenz*
 
 ### Runtime output
 
-![](.\SwaggerOutput.PNG)
+
+![HttpGet, Route("api/products")](SwaggerOutput.PNG)
 
 
 
