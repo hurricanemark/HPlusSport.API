@@ -26,8 +26,15 @@
 
 ### Runtime output
 
-
+<span class="caption">The **GET** method retrieves all products.</span>
 ![HttpGet, Route("api/products")](SwaggerOutput.PNG)
+
+<br>
+
+<span class="caption">The **POST** method creates a new product.</span>
+![HttpPOST](SwaggerPUTActionResult.PNG)
+
+
 
 
 

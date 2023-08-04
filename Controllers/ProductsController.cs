@@ -1,4 +1,5 @@
 using HPlusSport.API.Models;
+using HPlussSport.API.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -31,5 +32,18 @@ namespace HPlussSport.API.Controllers
             return Ok(product);
             
         }
+
+        [HttpPost]
+        public async Task<ActionResult<Product>> CreateProduct(Product product)
+        {
+            _context.Products.Add(product);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(
+                "GetProduct",
+                new { id = product.Id },
+                product);
+        }
+
     }
 }
