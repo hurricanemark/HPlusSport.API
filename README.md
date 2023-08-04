@@ -19,6 +19,9 @@
 | DELETE  | Delete existing data |
 
 
+**Note** 
+
+`modelBuilder.UseInMemoryDatabase` is implemented.  Data is flushed when program terminated.
 
 
 ### Runtime output
